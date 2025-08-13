@@ -1,2 +1,2 @@
-# HexSoftwares_AI-Chatbox
+# HexSoftwares_AI-Chatbot
 Chatter Box
