@@ -1,7 +1,7 @@
 # HexSoftwares_AI-Chatbot
 🤖 Chatter Box
 
-🎥 Demo Video: Watch Here
+🎥 Demo Video: https://drive.google.com/file/d/1s1u7uv4QZX11Lx9OK9fHRjvIhO8n4N5l/view?usp=drivesdk
 
 Chatter Box is an AI-powered chatbot web application built to provide instant responses, customer support, and human-like conversations in real time.
 It combines rule-based NLP with voice interaction and an intuitive UI to make chatting smooth and engaging.
@@ -20,8 +20,8 @@ It combines rule-based NLP with voice interaction and an intuitive UI to make ch
 
 ♿ Accessible Design – ARIA roles, live region updates, and keyboard-friendly navigation.
 
-🛠 Technologies & Techniques Used
-Frontend
+🛠 Technologies & Techniques Used   
+💻Frontend
 
 HTML5, CSS3, JavaScript (Vanilla)
 
@@ -41,7 +41,7 @@ Emoji Picker integration
 
 XSS Prevention using escapeHtml()
 
-Backend
+💻Backend
 
 Python Flask for serving pages and chat processing
 
@@ -68,10 +68,17 @@ JSON response is sent back to the frontend.
 Bot reply is displayed, optionally spoken aloud, and chat scrolls to the latest message.
 
 📂 Project Structure
-ChatterBox/
-│
-├── static/            # CSS, JS, and assets
+
+
+ChatterBox/ 
+
+│      
+├── static/            # CSS, JS, and assets    
+
 ├── templates/         # HTML files
+
 ├── app.py             # Flask backend
+
 ├── requirements.txt   # Python dependencies
+
 └── README.md          # Project documentation
