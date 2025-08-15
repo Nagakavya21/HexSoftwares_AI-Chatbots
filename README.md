@@ -1,85 +1,77 @@
 # HexSoftwares_AI-Chatbot
+🤖 Chatter Box
 
-🎥 Project Demo Video: Click to Watch
+🎥 Demo Video: Watch Here
 
-🤖 Chatter Box – AI-Chatbot Development
+Chatter Box is an AI-powered chatbot web application built to provide instant responses, customer support, and human-like conversations in real time.
+It combines rule-based NLP with voice interaction and an intuitive UI to make chatting smooth and engaging.
 
-Chatter Box is a web-based chatbot application designed to interact with users in real-time, answer queries, and provide quick support in a human-like conversational style.
-It is lightweight, fast, and accessible, making it suitable for websites, customer support portals, and interactive platforms.
+📌 Features
 
-📌 Main Features
+💬 Customer Support & Engagement – Acts as a virtual assistant, answering queries and maintaining conversational flow.
 
-Customer Support & Engagement
+🧠 Rule-Based NLP – Uses keyword matching for intelligent responses without heavy ML models.
 
-Works as a virtual assistant to answer user questions.
+🎙 Voice Interaction – Supports voice input via Web Speech API and optional text-to-speech for bot replies.
 
-Keeps the conversation smooth and interactive.
+😊 Emoji Support – Quick emoji picker for expressive conversations.
 
-Rule-Based NLP Processing
+📱 Responsive UI – Works seamlessly on desktop, tablet, and mobile.
 
-Uses keyword matching to understand and reply.
-
-Does not require heavy ML models, ensuring fast performance.
-
-Voice Interaction
-
-Supports voice input through the Web Speech API.
-
-Can optionally speak replies using text-to-speech.
-
-Emoji Support
-
-Includes an emoji picker for fun and expressive chats.
-
-Responsive & Accessible Design
-
-Works perfectly on mobile, tablet, and desktop.
-
-Includes ARIA roles, live region updates, and keyboard navigation for accessibility.
+♿ Accessible Design – ARIA roles, live region updates, and keyboard-friendly navigation.
 
 🛠 Technologies & Techniques Used
-💻Frontend
+Frontend
 
-HTML5, CSS3, Vanilla JavaScript
+HTML5, CSS3, JavaScript (Vanilla)
 
-Responsive UI with Flexbox & Media Queries
+Responsive UI with Flexbox and Media Queries
 
-CSS Variables for easy theme customization (--primary, --secondary)
+CSS Variables for theming (--primary, --secondary)
 
-Animated typing indicators using @keyframes
+Animated typing indicators with @keyframes typing
 
-DOM Manipulation to dynamically display messages
+DOM Manipulation for real-time chat rendering
 
 Web Speech API (Speech-to-Text)
 
 SpeechSynthesis API (Text-to-Speech)
 
-Emoji picker integration
+Emoji Picker integration
 
-XSS prevention with an escapeHtml() function
+XSS Prevention using escapeHtml()
 
 Backend
 
-Python Flask (serves the app & handles chat logic)
+Python Flask for serving pages and chat processing
 
-Flask-CORS for API access
+Flask-CORS for cross-origin API access
 
 Rule-based NLP with keyword matching
 
-Randomized responses using random.choice() for variety
+Randomized Responses via random.choice()
 
-Environment variables managed with python-dotenv
+Environment Variables with python-dotenv
 
-Structured logging using Python’s logging module
+Structured Logging with Python’s logging module
 
 🚀 How It Works
 
-User Interaction: User sends a message by typing, selecting an emoji, or using voice input.
+User sends a message (text, emoji, or voice).
 
-Data Transfer: The message is sent to the Flask backend via Fetch API.
+Frontend sends the message to Flask backend via Fetch API.
 
-Processing: Backend applies rule-based NLP to understand and respond.
+Backend processes it using rule-based NLP.
 
-Response Delivery: A JSON response is sent back to the frontend.
+JSON response is sent back to the frontend.
 
-Display & Voice Output: Chatbox shows the bot’s reply and optionally reads it aloud using text-to-speech.
+Bot reply is displayed, optionally spoken aloud, and chat scrolls to the latest message.
+
+📂 Project Structure
+ChatterBox/
+│
+├── static/            # CSS, JS, and assets
+├── templates/         # HTML files
+├── app.py             # Flask backend
+├── requirements.txt   # Python dependencies
+└── README.md          # Project documentation
